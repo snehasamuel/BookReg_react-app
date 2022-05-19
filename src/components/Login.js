@@ -35,6 +35,9 @@ const Login = () => {
           
             <div classNAme="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                <Link className='nav-link' to="/register">New User ?? Click Here !!</Link>
+               <br>
+            </br>
+            <Link className='nav-link' to="/add">Go TO Add</Link>
             </div>
             
 
