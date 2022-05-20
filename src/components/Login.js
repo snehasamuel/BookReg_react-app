@@ -16,25 +16,28 @@ const Login = () => {
   return (
     <div>
     
-        <div classNAme="container">
-    <div classNAme="row">
-        <div classNAme="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <div className="container">
+    <div className="row">
+        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-            <div classNAme="row g-3">
-                <div classNAme="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" classNAme="form-label">UserName</label>
-                    <input onChange={(a)=>{setName(a.target.value)}} type="text" classNAme="form-control"/>
+            <div className="row g-3">
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" className="form-label">UserName</label>
+                    <input onChange={(a)=>{setName(a.target.value)}} type="text" className="form-control"/>
                 </div>
-                <div classNAme="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" classNAme="form-label">Password</label>
-                    <input onChange={(a)=>{setPswd(a.target.value)}} type="text" classNAme="form-control"/>
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" className="form-label">Password</label>
+                    <input onChange={(a)=>{setPswd(a.target.value)}} type="password" className="form-control"/>
                 </div>
-                <div classNAme="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button classNAme="btn btn-success" onClick={loginVlalues}>LOGIN</button>
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button className="btn btn-success" onClick={loginVlalues}>LOGIN</button>
                 </div>
           
-            <div classNAme="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                <Link className='nav-link' to="/register">New User ?? Click Here !!</Link>
+               <br>
+            </br>
+            <Link className='nav-link' to="/add">Go TO Add</Link>
             </div>
             
 
