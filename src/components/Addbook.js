@@ -9,6 +9,7 @@ const Addbook = () => {
     const addBook=()=>{
         const add={"Bookname":bookname,"Author":author,"Price":price}
         console.log(add)
+        
     }
   return (
     <div>
